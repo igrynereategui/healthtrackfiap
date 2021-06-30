@@ -1,0 +1,189 @@
+/***************** RESET *****************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+a {
+  text-decoration: none;
+  font: 400 1.2rem "Poppins";
+  color: #ffffff;
+}
+
+a:focus,
+a:hover {
+  color: #FFB8B3;
+  transition: 1s;
+}
+
+#forgot {
+  color: black;
+  font-size: small;
+  font-style: italic;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+img:focus,
+img:hover {
+  opacity: 0.7;
+  transition: 1s;
+}
+
+/***************** LOGO ******************/
+
+.logo {
+  font: 700 1.5rem "Poppins";
+  color: #ffffff;; 
+}
+.logo:focus, 
+.logo:hover {
+  color: #FFB8B3;
+  transition: 1s;
+}
+.logo span {
+  color: #FFB8B3;
+}
+
+/***************** BASE *****************/
+
+body {
+  font: 400 1.2rem "Poppins";
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #1B6CA8;
+}
+
+.container {
+  margin: 4rem 1rem 0rem 4rem;
+  font: 400 1rem "Poppins";
+  justify-content: center;
+}
+
+.container-fluid {
+  background-color: #1B6CA8;
+}
+
+h2 {
+  font: 400 1.5rem "Poppins";
+  color: #ffffff; 
+}
+
+#about {
+  text-align: justify;
+  text-indent: 3.12rem;
+  margin: 9rem;
+}
+
+#social-media {
+  text-align: center;
+  margin: 2rem;
+}
+
+#login {
+  font: 400 1.5rem "Poppins";
+  color: #1B6CA8;
+  text-align: center;
+  margin: 2rem 4rem;
+}
+
+#exit{
+  font: 400 1.5rem "Poppins";
+  color: #1B6CA8;
+  text-align: center;
+  margin: 10rem;
+}
+
+
+/***************** BUTTON ******************/
+
+.btn-store {
+  color:#ffffff;
+  min-width: 15.87rem;
+  padding: 0.75rem 1.25rem;
+  border-color: #dddddd;
+}
+
+.btn-store:focus, 
+.btn-store:hover {
+  color: #ffffff !important;
+  background-color: #168eea;
+  border-color: #168eea !important;
+}
+
+.btn-store .btn-label, 
+.btn-store .btn-caption {
+  display: block;
+  text-align: left;
+  line-height: 1;
+}
+
+.btn-store .btn-caption {
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+    width: 16rem;
+    text-align: center;
+    padding: 0.31rem 0.62rem;
+    border: 0.06rem solid #eee;
+    border-radius: 0.37rem;
+}
+
+
+
+
+/* avatar.css */
+.infosUsuario {
+  text-align: center;
+}
+
+  .infosUsuario__avatar {
+    margin-top: 2px;
+    border: 5px solid #8db7d2;
+    border-radius: 50%;
+  }
+
+  .infosUsuario__nome {
+    color: #747c81;
+    margin: 0;
+    margin-top: 2px;
+  }
+
+  .infosUsuario__label {
+    margin-top: 2px;
+    transition: .3s;
+  }
+
+
+/* infousuario.css */
+.infosUsuario {
+  text-align: center;
+}
+
+  .infosUsuario__avatar {
+    margin-top: 2px;
+    border: 5px solid #8db7d2;
+    border-radius: 50%;
+  }
+
+  .infosUsuario__nome {
+    color: #747c81;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .infosUsuario__label {
+    margin-top: 15px;
+    transition: .3s;
+  }
+
